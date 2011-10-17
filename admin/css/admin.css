@@ -1,0 +1,18 @@
+body {
+	color: #ffffff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+fieldset {
+	border: 1px solid #FFFFFF;
+	font-size: 13px;
+}
+label {
+	margin: 10px;
+}
+input {
+	margin: 3px;
+	
+}
+legend {
+	color: #ffffff;
+}

@@ -1,0 +1,94 @@
+<div id="template_sidebar" style="float:left; [hideside]">
+	<div id="directories_canvas">
+			<div><span id="documents_loader"></span><strong>Directories</strong></div>
+			<div style="clear:both;"></div>
+			<div id="kfm_directories"></div>
+</div>
+</div>
+<div id="template_header">
+<div id="actionBar">
+<div style="float:right; margin-left: 5px; margin-right: 5px;">
+<ul class="actionIcon"><li>
+<span style="vertical-align:top;">
+Actions:
+</span>
+</li><li>
+<a href="javascript:if (selectedFiles.length>0) { pc = new plugin_cropper(); pc.crop_image(selectedFiles) } else { alert('Please select a file.'); }" >
+<img src="themes/webassist_v2/icons/crop.png" width="15" height="15" alt="crop" /></a>
+<div style="margin-left:45px;">crop</div>
+</li>
+<li>
+<a href="javascript:if (selectedFiles.length>0) { pc = new plugin_cropper(); kfm_resize_image(selectedFiles[0]) } else { alert('Please select a file.'); }" >
+<img src="themes/webassist_v2/icons/resize_image.png" width="16" height="16" alt="resize" /></a>
+<div style="margin-left:60px;">resize</div>
+</li>
+<li id="rotateCCWItem">
+<a href="javascript:if (selectedFiles.length>0) kfm_rotateImage(selectedFiles[0],90); else alert('Please select a file.');" ><img src="themes/webassist_v2/icons/rotate_ccw.png" width="16" height="16" alt="rotate counter-clockwise" /></a>
+<div style="margin-left:50px;" >rotate counter-clockwise</div>
+</li>
+<li id="rotateCWItem">
+<a href="javascript:if (selectedFiles.length>0) kfm_rotateImage(selectedFiles[0],270); else alert('Please select a file.');" ><img src="themes/webassist_v2/icons/rotate_cw.png" width="16" height="16" alt="rotate clockwise" /></a>
+<div style="margin-left:80px;" >rotate clockwise</div>
+</li>
+<li class="actionSpacer"></li>
+<li>
+<a href="javascript:if (selectedFiles.length>0) kfm_downloadSelectedFiles(selectedFiles[0]); else alert('Please select a file.');" >
+<img src="themes/webassist_v2/icons/downloadicon.png" width="16" height="16" alt="download" /></a>
+<div style="margin-left:120px;">download</div>
+</li>
+<li>
+<a href="javascript:if (selectedFiles.length>0) { if(selectedFiles.length>1)kfm_deleteSelectedFiles();
+			else kfm_deleteFile(selectedFiles[0]); } else { alert('Please select a file.'); }" >
+<img src="themes/webassist_v2/icons/remove.png" width="16" height="16" alt="remove" /></a>
+<div style="margin-left:150px;">delete</div>
+</li>
+<li>
+<a href="javascript:if (selectedFiles.length>0) kfm_img_startLightbox(selectedFiles); else alert('Please select a file.');" ><img src="themes/webassist_v2/icons/slideshow_icon.png" width="16" height="15" alt="view" /></a>
+<div style="margin-left:180px;">view</div>
+</li>
+<li>
+<a href="javascript:if (selectedFiles.length>0) { var table=kfm_buildFileDetailsTable(File_getInstance(selectedFiles[0]));kfm_modal_open(table,'File Details',[]); } else { alert('Please select a file.'); }" ><img src="plugins/file_details/file_details.png" width="16" height="16" alt="details" /></a>
+<div style="margin-left:195px;">details</div>
+</li>
+</ul>
+</div>
+
+</div>
+
+      <div style="padding:0; margin:0;">
+		<div id="cwd_display" style="white-space:nowrap">&nbsp;</div>
+      </div>
+<div id="folder_info_wrapper">
+    <div id="viewmode">
+      <div style="padding: 4px 4px 0 4px;">
+        <div style="white-space:nowrap; width:500px;">
+        <div style="float:left; margin-top:6px">Upload File:</div>
+        <div id="kfm_upload_wrapper" ></div>
+      </div>
+      </div>
+	</div>
+</div>
+
+<div style="float:right; margin-right: 20px; clear:right; margin-top: 20px; white-space:nowrap;">
+                Viewing <span id="folder_info"></span> as:
+				<select onchange="kfm.switchFilesMode(this.selectedIndex);">
+                	<option value="0">Icons</option>
+                	<option value="1">List</option>
+                </select>
+</div>
+
+</div>
+<div id="template_body" style="background-color:#fff;">
+	<div id="documents_body" style="background-color:#fff;[hidemargin]"></div>
+</div>
+<div id="template_footer">
+
+<div style="float:right; margin-right: 20px; margin-left: 5px; margin-top: 6px;">
+  <a href="javascript:window.open('../kfm_help/index.htm', 'kfm_help', 'status=1,toolbar=0,location=0,menubar=1,resizable=1,scrollbars=1,height=768,width=970');" class="button" style="padding-left:10px; padding-right:10px;">Help</a>
+  <a href="javascript:if (selectedFiles.length>0) { done = new plugin_return_url().doFunction(selectedFiles); } else { alert('Please select a file.') }" class="button" style="padding-left:17px;padding-right:17px; margin-right: 0px; margin-left:7px;">OK</a>
+  <a href="javascript:window.close();" class="button" style="margin-left: 5px;">Cancel</a>
+</div>
+
+
+
+</div>

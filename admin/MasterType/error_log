@@ -1,0 +1,4 @@
+[14-Apr-2011 03:26:31] PHP Warning:  mysql_free_result(): 33 is not a valid MySQL result resource in /home/gocreate/public_html/Admin/MasterType/Master_Type_Delete.php on line 192
+[14-Apr-2011 03:26:33] PHP Warning:  mysql_free_result(): 33 is not a valid MySQL result resource in /home/gocreate/public_html/Admin/MasterType/Master_Type_Delete.php on line 192
+[14-Apr-2011 03:57:13] PHP Warning:  mysql_free_result(): 33 is not a valid MySQL result resource in /home/gocreate/public_html/Admin/MasterType/Master_Type_Delete.php on line 192
+[14-Apr-2011 03:57:14] PHP Warning:  mysql_free_result(): 33 is not a valid MySQL result resource in /home/gocreate/public_html/Admin/MasterType/Master_Type_Delete.php on line 192

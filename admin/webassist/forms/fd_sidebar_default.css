@@ -1,0 +1,907 @@
+@charset "utf-8";
+/* Spry formats */
+form.Sidebar_Default .textfieldRequiredState .textfieldRequiredMsg, 
+form.Sidebar_Default .textfieldInvalidFormatState .textfieldInvalidFormatMsg, 
+form.Sidebar_Default .textfieldMinValueState .textfieldMinValueMsg,
+form.Sidebar_Default .textfieldMaxValueState .textfieldMaxValueMsg,
+form.Sidebar_Default .textfieldMinCharsState .textfieldMinCharsMsg,
+form.Sidebar_Default .textfieldMaxCharsState .textfieldMaxCharsMsg {
+	white-space:normal;
+	width:215px;
+	color:#e00000;
+	display:block;
+	margin-top:3px;
+	margin-left:2px;
+	border-width:0;
+}
+form.Sidebar_Default .checkboxRequiredState .checkboxRequiredMsg,
+form.Sidebar_Default .checkboxMinSelectionsState .checkboxMinSelectionsMsg,
+form.Sidebar_Default .checkboxMaxSelectionsState .checkboxMaxSelectionsMsg {
+	white-space:normal;
+	width:215px;
+	color:#e00000;
+	margin-top:3px;
+	margin-left:2px;
+	border-width:0;
+}
+form.Sidebar_Default .selectRequiredState .selectRequiredMsg,
+form.Sidebar_Default .selectInvalidState .selectInvalidMsg {
+	white-space:normal;
+	width:215px;
+	color:#e00000;
+	display:block;
+	margin-top:3px;
+	margin-left:2px;
+	border-width:0;
+}
+form.Sidebar_Default .textareaRequiredState .textareaRequiredMsg,
+form.Sidebar_Default .textareaMinCharsState .textareaMinCharsMsg,
+form.Sidebar_Default .textareaMaxCharsState .textareaMaxCharsMsg {
+	white-space:normal;
+	width:215px;
+	color:#e00000;
+	display:block;
+	margin-top:3px;
+	margin-left:2px;
+	border-width:0;
+}
+form.Sidebar_Default .radioRequiredState .radioRequiredMsg,
+form.Sidebar_Default .radioInvalidState .radioInvalidMsg {
+	white-space:normal;
+	width:215px;
+	color:#e00000;
+	display:block;
+	margin-top:3px;
+	margin-left:2px;
+	border-width:0;
+}
+form.Sidebar_Default .passwordRequiredState .passwordRequiredMsg,
+form.Sidebar_Default .passwordMinCharsState .passwordMinCharsMsg,
+form.Sidebar_Default .passwordMaxCharsState .passwordMaxCharsMsg,
+form.Sidebar_Default .passwordInvalidStrengthState .passwordInvalidStrengthMsg,
+form.Sidebar_Default .passwordCustomState .passwordCustomMsg {
+	white-space:normal;
+	width:215px;
+	color:#e00000;
+	display:block;
+	margin-top:3px;
+	margin-left:2px;
+	border-width:0;
+}
+form.Sidebar_Default .confirmRequiredState .confirmRequiredMsg,
+form.Sidebar_Default .confirmInvalidState .confirmInvalidMsg {
+	white-space:normal;
+	width:215px;
+	color:#e00000;
+	display:block;
+	margin-top:3px;
+	margin-left:2px;
+	border-width:0;
+}
+
+form.Sidebar_Default span.additionalErrorZone {
+	display:block;
+	clear:left;
+	white-space:nowrap;
+}
+form.Sidebar_Default div.errorGroup {
+}
+form.Sidebar_Default span.serverInvalidState {
+	width:215px;
+	color:#e00000;
+	display:block;
+	white-space:nowrap;
+	margin-top:3px;
+	margin-left:2px;
+	border-width:0;
+}
+
+/* form general definition */
+form.Sidebar_Default {
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border:1px solid #c2c2c2;
+	background-color:#efefef;
+	padding:0 0 5px 0;
+	margin:0 0 0 0;
+	color:#7e7e7e;
+	font-size:10pt;
+	font-family:Verdana, Geneva, sans-serif;
+	width:238px;
+	border-left-width:0;
+	border-radius:3px;
+}
+form.Sidebar_Default ul.Sidebar_Default {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+form.Sidebar_Default ul.formList {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+  list-style-type:none;
+}
+form.Sidebar_Default li.formItem {
+	clear:both;
+}
+form.Sidebar_Default fieldset.Sidebar_Default {
+	background-color:#d8d8d8;
+	padding:5px 5px 5px 5px;
+	margin:23px -1px 0 0;
+	clear:both;
+	border-width:0;
+}
+
+/* legend */
+form.Sidebar_Default span.groupHeader {
+	padding:5px 3px 3px 15px;
+	margin:-27px 0 0 0;
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+	position:absolute;
+	display:block;
+	white-space:nowrap;
+}
+
+/* labels */
+form.Sidebar_Default label.groupHeader {
+	text-align:left;
+	display:block;
+	float:left;
+	position:relative;
+	margin-top:4px;
+	margin-bottom:-2px;
+	padding-left:10px;
+}
+form.Sidebar_Default label.sublabel {
+	padding:0 0 1px 10px;
+	text-align:left;
+	width:200px;
+	display:block;
+}
+form.Sidebar_Default label.secondSublabel {
+	width:auto;
+}
+form.Sidebar_Default label.sublabelPlaceholder {
+}
+form.Sidebar_Default span.requiredIndicator {
+	color:#e00000;
+}
+form.Sidebar_Default span.fieldsetDescription {
+}
+
+/* span wrappers for form */
+form.Sidebar_Default div.formGroup {
+	display:inline;
+	float:left;
+}
+form.Sidebar_Default div.lineGroup {
+	clear:left;
+	display:block;
+}
+/* defines column size */
+form.Sidebar_Default div.wideColumnGroup {
+	width:-13px;
+	padding-bottom:2px;
+	padding-top:2px;
+	display:inline;
+	float:left;
+}
+form.Sidebar_Default div.fullColumnGroup {
+	width:225px;
+	padding-bottom:2px;
+	padding-top:2px;
+	display:inline;
+	float:left;
+}
+form.Sidebar_Default div.columnGroup {
+	width:238px;
+	padding-bottom:2px;
+	padding-top:2px;
+	display:inline;
+	float:left;
+}
+form.Sidebar_Default div.fieldGroup {
+	padding-left:2px;
+	padding-right:2px;
+  position:relative;
+	display:block;
+	float:left;
+}
+form.Sidebar_Default div.fieldPair {
+	display:block;
+}
+
+form.Sidebar_Default div.SameAsCheck_Row {
+	white-space:normal;
+	width:215px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+form.Sidebar_Default span.precedingText {
+	text-align:left;
+	display:block;
+	white-space:normal;
+	width:215px;
+	font-weight: bold;
+	padding-left:8px;
+}
+form.Sidebar_Default div.trailingText {
+	color:#7e7e7e;
+	white-space:normal;
+	width:215px;
+	margin-right:10px;
+	margin-left:8px;
+}
+form.Sidebar_Default div.trailingText a {
+	color:#7e7e7e;
+}
+form.Sidebar_Default div.trailingText div {
+  background-color:#8c8c8c;
+}
+
+/* wide groups for items on a single line */
+form.Sidebar_Default span.wideFieldGroup {
+	width:100%;
+	float:left;
+}
+
+/* button form elements */
+form.Sidebar_Default span.buttonFieldGroup {
+	text-align:center;
+	display:block;
+	float:none;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+form.Sidebar_Default input.formButton {
+	margin: 0;
+	padding: 0;
+}
+
+/* text form elements */
+form.Sidebar_Default input.formTextfield_XSmall {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:22px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formTextfield_Small {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:66px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formTextfield_Medium {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:100px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formTextfield_Large {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:215px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formTextfield_XLarge {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:215px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+
+form.Sidebar_Default .textfieldValidState input, form.Sidebar_Default input.textfieldValidState {
+	background-color:#fff;
+	color:#000;
+	border-color:#60ba00;
+}
+
+form.Sidebar_Default input.textfieldRequiredState, form.Sidebar_Default .textfieldRequiredState input, 
+form.Sidebar_Default input.textfieldInvalidFormatState, form.Sidebar_Default .textfieldInvalidFormatState input, 
+form.Sidebar_Default input.textfieldMinValueState, form.Sidebar_Default .textfieldMinValueState input, 
+form.Sidebar_Default input.textfieldMaxValueState, form.Sidebar_Default .textfieldMaxValueState input, 
+form.Sidebar_Default input.textfieldMinCharsState, form.Sidebar_Default .textfieldMinCharsState input, 
+form.Sidebar_Default input.textfieldMaxCharsState, form.Sidebar_Default .textfieldMaxCharsState input {
+	background-color:#fff;
+	color:#000;
+	border-color:#e00000;
+}
+
+form.Sidebar_Default .textfieldFocusState input, form.Sidebar_Default input.textfieldFocusState {
+	background-color:#fff;
+	color:#000;
+	border-color:#cfcfcf;
+}
+
+form.Sidebar_Default .textfieldFlashText input, form.Sidebar_Default input.textfieldFlashText {
+	color: red !important;
+}
+
+form.Sidebar_Default .textfieldHintState input, form.Sidebar_Default input.textfieldHintState {
+	/*color: red !important;*/
+}
+
+
+/* textarea form elements */
+form.Sidebar_Default textarea.formTextarea_Small {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:150px;
+	height:100px;
+	white-space:pre;
+	overflow:auto;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default textarea.formTextarea_Medium {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:215px;
+	height:150px;
+	white-space:pre;
+	overflow:auto;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default textarea.formTextarea_Large {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:215px;
+	height:190px;
+	white-space:pre;
+	overflow:auto;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default .textareaValidState textarea, form.Sidebar_Default textarea.textareaValidState {
+	background-color:#fff;
+	color:#000;
+	border-color:#60ba00;
+}
+
+form.Sidebar_Default textarea.textareaRequiredState, form.Sidebar_Default .textareaRequiredState textarea, 
+form.Sidebar_Default textarea.textareaMinCharsState, form.Sidebar_Default .textareaMinCharsState textarea, 
+form.Sidebar_Default textarea.textareaMaxCharsState, form.Sidebar_Default .textareaMaxCharsState textarea {
+	background-color:#fff;
+	color:#000;
+	border-color:#e00000;
+}
+
+form.Sidebar_Default .textareaFocusState textarea, form.Sidebar_Default textarea.textareaFocusState {
+	background-color:#fff;
+	color:#000;
+	border-color:#cfcfcf;
+}
+
+form.Sidebar_Default .textareaFlashState textarea, form.Sidebar_Default textarea.textareaFlashState{
+	color:red !important;
+}
+
+form.Sidebar_Default textarea.textareaHintState, form.Sidebar_Default .textareaHintState textarea{
+	/* color: red !important;*/
+}
+
+
+/* select form elements */
+form.Sidebar_Default select.formMenufield_XSmall {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:45px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default select.formMenufield_Small {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:70px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default select.formMenufield_Medium {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:122px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default select.formMenufield_Large {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:220px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default select.formMenufield_XLarge {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:220px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+
+form.Sidebar_Default select.formListfield_XSmall {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:45px;
+	height:100px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default select.formListfield_Small {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:70px;
+	height:100px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default select.formListfield_Medium {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:122px;
+	height:100px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default select.formListfield_Large {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:220px;
+	height:100px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default select.formListfield_XLarge {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:220px;
+	height:150px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default .selectValidState select, form.Sidebar_Default select.selectValidState {
+	background-color:#fff;
+	color:#000;
+	border-color:#60ba00;
+}
+
+form.Sidebar_Default select.selectRequiredState, form.Sidebar_Default .selectRequiredState select,
+form.Sidebar_Default select.selectInvalidState, form.Sidebar_Default .selectInvalidState select {
+	background-color:#fff;
+	color:#000;
+	border-color:#e00000;
+}
+
+.selectFocusState select, form.Sidebar_Default select.selectFocusState {
+	background-color:#fff;
+	color:#000;
+	border-color:#cfcfcf;
+}
+
+/* radio button form elements */
+form.Sidebar_Default input.formRadioField_Standard {
+	background-color:#fff;
+	color:#000;
+	padding:2px 2px 2px 4px;
+	margin-top:2px;
+	margin-left:2px;
+	border-width:0;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default .radioValidState input, form.Sidebar_Default input.radioValidState {
+	background-color:#fff;
+	color:#000;
+	border-color:#60ba00;
+}
+form.Sidebar_Default input.radioRequiredState, form.Sidebar_Default .radioRequiredState input,
+form.Sidebar_Default input.radioInvalidState, form.Sidebar_Default .radioInvalidState input {
+	background-color:#fff;
+	color:#000;
+	border-color:#e00000;
+}
+form.Sidebar_Default .radioFocusState input, form.Sidebar_Default input.radioFocusState {
+	background-color:#fff;
+	color:#000;
+	border-color:#cfcfcf;
+}
+
+form.Sidebar_Default span.radioFieldGroup_Narrow {
+	
+}
+form.Sidebar_Default span.radioFieldGroup_Wide {
+	display:block;
+}
+form.Sidebar_Default span.radioFieldGroup_OneColumn {
+	display:block;
+}
+form.Sidebar_Default span.radioGroup_Narrow {
+	
+}
+form.Sidebar_Default span.radioGroup_Wide {
+	display:block;
+}
+form.Sidebar_Default span.radioGroup_OneColumn {
+	display:block;
+}
+form.Sidebar_Default label.radioSublabel_Narrow {
+	width:70px;
+	float:left;
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+form.Sidebar_Default label.radioSublabel_Wide {
+	width:110px;
+	float:left;
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+form.Sidebar_Default label.radioSublabel_OneColumn {
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+
+
+/* checkbox form elements */
+form.Sidebar_Default input.SameAsCheck {
+	background-color:#fff;
+	color:#000;
+	padding:2px 2px 2px 4px;
+	margin-top:2px;
+	margin-left:2px;
+	border-width:0;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formCheckboxField_Standard {
+	background-color:#fff;
+	color:#000;
+	padding:2px 2px 2px 4px;
+	margin-top:2px;
+	margin-left:2px;
+	border-width:0;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default .checkboxValidState input, form.Sidebar_Default input.checkboxValidState {
+	background-color:#fff;
+	color:#000;
+	border-color:#60ba00;
+}
+form.Sidebar_Default input.checkboxRequiredState, form.Sidebar_Default .checkboxRequiredState input,
+form.Sidebar_Default input.checkboxMinSelectionsState, form.Sidebar_Default .checkboxMinSelectionsState input,
+form.Sidebar_Default input.checkboxMaxSelectionsState, form.Sidebar_Default .checkboxMaxSelectionsState input {
+	display:block;
+	background-color:#fff;
+	color:#000;
+	border-color:#e00000;
+}
+form.Sidebar_Default .checkboxFocusState input, form.Sidebar_Default input.checkboxFocusState {
+	background-color:#fff;
+	color:#000;
+	border-color:#cfcfcf;
+}
+
+form.Sidebar_Default span.checkFieldGroup_Narrow {
+	display:block;
+}
+form.Sidebar_Default span.checkFieldGroup_Wide {
+	
+}
+form.Sidebar_Default span.checkFieldGroup_OneColumn {
+	display:block;
+}
+form.Sidebar_Default span.checkGroup_Narrow {
+	display:block;
+}
+form.Sidebar_Default span.checkGroup_Wide {
+	
+}
+form.Sidebar_Default span.checkGroup_OneColumn {
+	display:block;
+}
+form.Sidebar_Default label.checkSublabel_Narrow {
+	width:70px;
+	float:left;
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+form.Sidebar_Default label.checkSublabel_Wide {
+	width:110px;
+	float:left;
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+form.Sidebar_Default label.checkSublabel_OneColumn {
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+
+/* confirm and password states (same as text) */
+form.Sidebar_Default input.formPasswordfield_XSmall {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:22px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formPasswordfield_Small {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:66px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formPasswordfield_Medium {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:100px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formPasswordfield_Large {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:215px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default input.formPasswordfield_XLarge {
+	background-color:#fff;
+	color:#000;
+	padding:4px 4px 4px 4px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	width:215px;
+	margin:0;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#cfcfcf;
+}
+
+form.Sidebar_Default .confirmValidState input, form.Sidebar_Default input.confirmValidState {
+	background-color:#fff;
+	color:#000;
+	border-color:#60ba00;
+}
+
+form.Sidebar_Default input.confirmRequiredState, form.Sidebar_Default .confirmRequiredState input, 
+form.Sidebar_Default input.confirmInvalidState, form.Sidebar_Default .confirmInvalidState input {
+	background-color:#fff;
+	color:#000;
+	border-color:#e00000;
+}
+
+form.Sidebar_Default .confirmFocusState input, form.Sidebar_Default input.confirmFocusState {
+	background-color:#fff;
+	color:#000;
+	border-color:#cfcfcf;
+}
+form.Sidebar_Default .passwordValidState input, form.Sidebar_Default input.passwordValidState {
+	background-color:#fff;
+	color:#000;
+	border-color:#60ba00;
+}
+
+form.Sidebar_Default input.passwordRequiredState, form.Sidebar_Default .passwordRequiredState input, 
+form.Sidebar_Default input.passwordInvalidStrengthState, form.Sidebar_Default .passwordInvalidStrengthState input, 
+form.Sidebar_Default input.passwordMinCharsState, form.Sidebar_Default .passwordMinCharsState input, 
+form.Sidebar_Default input.passwordCustomState, form.Sidebar_Default .passwordCustomState input, 
+form.Sidebar_Default input.passwordMaxCharsState, form.Sidebar_Default .passwordMaxCharsState input {
+	background-color:#fff;
+	color:#000;
+	border-color:#e00000;
+}
+
+form.Sidebar_Default .passwordFocusState input, form.Sidebar_Default input.passwordFocusState {
+	background-color:#fff;
+	color:#000;
+	border-color:#cfcfcf;
+}
+
+/*Captcha form element*/
+form.Sidebar_Default img.Captcha {
+	margin:0 0 -2px 1px;
+}
+
+/*Datepicker form element*/
+.ui-datepicker {
+}
+.ui-datepicker a {
+}
+.ui-datepicker .ui-widget-header {
+}
+.ui-datepicker thead th {
+}
+
+.ui-datepicker tbody td a:link,
+.ui-datepicker tbody td a:visited,
+.ui-datepicker tbody td a.ui-state-default {
+}
+.ui-datepicker tbody td a:active,
+.ui-datepicker tbody td a.ui-state-active {
+}
+.ui-datepicker tbody td a:hover,
+.ui-datepicker tbody td a.ui-state-hover {
+}
+.ui-datepicker tbody td a.ui-state-error:link,
+.ui-datepicker tbody td a.ui-state-error:visited,
+.ui-datepicker tbody td a.ui-state-error {
+}
+.ui-datepicker tbody .ui-state-error-text {
+}
+
+.ui-datepicker tbody td.ui-datepicker-week-end a:link,
+.ui-datepicker tbody td.ui-datepicker-week-end a:visited,
+.ui-datepicker tbody td.ui-datepicker-week-end a {
+}
+.ui-datepicker tbody td.ui-datepicker-today a:link,
+.ui-datepicker tbody td.ui-datepicker-today a:visited,
+.ui-datepicker tbody td.ui-datepicker-today a:hover,
+.ui-datepicker tbody td.ui-datepicker-today a {
+}
+
+.ui-datepicker tbody td.ui-datepicker-week-end a:hover,
+.ui-datepicker tbody td.ui-datepicker-week-end a.ui-state-hover {
+}
+.ui-datepicker tbody td.ui-datepicker-week-end a:active,
+.ui-datepicker tbody td.ui-datepicker-week-end a:focus,
+.ui-datepicker tbody td.ui-datepicker-week-end a.ui-state-active {
+}
+
+.ui-datepicker-trigger {
+  border: 0;
+  margin: 0 0 0 1px;
+  padding: 0;
+  background: none;
+}

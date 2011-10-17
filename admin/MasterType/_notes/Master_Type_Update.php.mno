@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_mt_searchresults" value="name:ID;datatype:int,name:MEDIA_TYPE;datatype:string,name:VAT_RATING;datatype:string" />
+	<infoitem key="UD_rs_update" value="name:ID;datatype:int,name:MEDIA_TYPE;datatype:string,name:VAT_RATING;datatype:string" />
+</info>

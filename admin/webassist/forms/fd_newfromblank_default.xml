@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wa_form_theme name="Default" id="NewFromBlank_Default" version="1.0">
+  <wa_theme_group id="form">
+    <wa_theme_configuration id="width">790px</wa_theme_configuration>
+    <wa_theme_configuration id="column_width">380px</wa_theme_configuration>
+    <wa_theme_configuration id="max_columns">2</wa_theme_configuration>
+    <wa_theme_configuration id="use_tabindex">true</wa_theme_configuration>
+    <wa_theme_configuration id="tabindex_increment">1</wa_theme_configuration>
+    <wa_theme_configuration id="progressbar_category">BigSpin</wa_theme_configuration>
+    <wa_theme_configuration id="progressbar_theme">Slate</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="fieldset_legend">
+    <wa_theme_configuration id="legend_option">true|false</wa_theme_configuration>
+    <wa_theme_configuration id="span_for_legend">false</wa_theme_configuration>
+    <wa_theme_configuration id="font-size">18px</wa_theme_configuration>
+    <wa_theme_configuration id="font-weight">bold</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="fieldset_description">
+    <wa_theme_configuration id="color">#b40000</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="fieldset_contents">
+    <wa_theme_configuration id="margin-top">0</wa_theme_configuration>
+    <wa_theme_configuration id="margin-right">0</wa_theme_configuration>
+    <wa_theme_configuration id="margin-bottom">0</wa_theme_configuration>
+    <wa_theme_configuration id="margin-left">0</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">0</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">0</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">0</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">0</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="headers">
+    <wa_theme_configuration id="placement_option">true|true</wa_theme_configuration>
+    <wa_theme_configuration id="text-align">right</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="element_groups">
+    <wa_theme_configuration id="padding-top">10px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">0</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">0</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">0</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="labels">
+    <wa_theme_configuration id="label_orientation">left</wa_theme_configuration>
+    <wa_theme_configuration id="text-align">right</wa_theme_configuration>
+    <wa_theme_configuration id="float">left</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="margin-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="font-weight">normal</wa_theme_configuration>
+    <wa_theme_configuration id="label_width">150px</wa_theme_configuration>
+    <wa_theme_configuration id="font-size">15px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_text_xsmall">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">50px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_text_small">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">80px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_text_medium">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">120px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_text_large">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">200px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_text_xlarge">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">592px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_textarea_large">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">514px</wa_theme_configuration>
+    <wa_theme_configuration id="height">200px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_textarea_medium">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">382px</wa_theme_configuration>
+    <wa_theme_configuration id="height">150px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_textarea_small">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">252px</wa_theme_configuration>
+    <wa_theme_configuration id="height">100px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_menu_xsmall">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">50px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_menu_small">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">80px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_menu_medium">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">120px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_menu_large">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">252px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_menu_xlarge">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">382px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_list_xsmall">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">50px</wa_theme_configuration>
+    <wa_theme_configuration id="height">100px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_list_small">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">80px</wa_theme_configuration>
+    <wa_theme_configuration id="height">100px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_list_medium">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">120px</wa_theme_configuration>
+    <wa_theme_configuration id="height">100px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_list_large">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">252px</wa_theme_configuration>
+    <wa_theme_configuration id="height">100px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_list_xlarge">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">5px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">5px</wa_theme_configuration>
+    <wa_theme_configuration id="width">382px</wa_theme_configuration>
+    <wa_theme_configuration id="height">150px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_checkbox_all">
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">2px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_checkboxgroup_onecolumn">
+    <wa_theme_configuration id="labels_placement">left</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_checkboxgroup_narrow">
+    <wa_theme_configuration id="labels_placement">left</wa_theme_configuration>
+    <wa_theme_configuration id="width">60px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_checkboxgroup_wide">
+    <wa_theme_configuration id="labels_placement">left</wa_theme_configuration>
+    <wa_theme_configuration id="width">135px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_radio_all">
+    <wa_theme_configuration id="labels_placement">left</wa_theme_configuration>
+    <wa_theme_configuration id="margin-left">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-top">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">2px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_radiogroup_all">
+    <wa_theme_configuration id="padding-top">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-right">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-bottom">2px</wa_theme_configuration>
+    <wa_theme_configuration id="padding-left">2px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_radiogroup_onecolumn">
+    <wa_theme_configuration id="labels_placement">left</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_radiogroup_narrow">
+    <wa_theme_configuration id="labels_placement">left</wa_theme_configuration>
+    <wa_theme_configuration id="width">60px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_radiogroup_wide">
+    <wa_theme_configuration id="labels_placement">left</wa_theme_configuration>
+    <wa_theme_configuration id="width">135px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_file_small">
+    <wa_theme_configuration id="width">20</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_file_large">
+    <wa_theme_configuration id="width">30</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_captcha_all">
+    <wa_theme_configuration id="font_file">MOM_T___.TTF</wa_theme_configuration>
+    <wa_theme_configuration id="margin">0 0 -7px 2px</wa_theme_configuration>
+    <wa_theme_configuration id="input_size">Large</wa_theme_configuration>
+    <wa_theme_configuration id="noise_level">none</wa_theme_configuration>
+    <wa_theme_configuration id="noise_placement">default</wa_theme_configuration>
+    <wa_theme_configuration id="grid_level">none</wa_theme_configuration>
+    <wa_theme_configuration id="grid_placement">default</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_htmleditor_large">
+    <wa_theme_configuration id="editor_preset">Full</wa_theme_configuration>
+    <wa_theme_configuration id="editor_skin">kama</wa_theme_configuration>
+    <wa_theme_configuration id="editor_width">514px</wa_theme_configuration>
+    <wa_theme_configuration id="editor_height">350px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_htmleditor_medium">
+    <wa_theme_configuration id="editor_preset">Normal</wa_theme_configuration>
+    <wa_theme_configuration id="editor_skin">kama</wa_theme_configuration>
+    <wa_theme_configuration id="editor_width">382px</wa_theme_configuration>
+    <wa_theme_configuration id="editor_height">250px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="elm_htmleditor_small">
+    <wa_theme_configuration id="editor_preset">Compact</wa_theme_configuration>
+    <wa_theme_configuration id="editor_skin">kama</wa_theme_configuration>
+    <wa_theme_configuration id="editor_width">252px</wa_theme_configuration>
+    <wa_theme_configuration id="editor_height">150px</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_text_initial">
+    <wa_theme_configuration id="background-color">#FFF</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_text_active">
+    <wa_theme_configuration id="background-color">#FFFFCC</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_text_valid">
+    <wa_theme_configuration id="background-color">#B8F5B1</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_text_invalid">
+    <wa_theme_configuration id="background-color">#FF9F9F</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_textarea_initial">
+    <wa_theme_configuration id="background-color">#FFF</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_textarea_active">
+    <wa_theme_configuration id="background-color">#FFFFCC</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_textarea_valid">
+    <wa_theme_configuration id="background-color">#B8F5B1</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_textarea_invalid">
+    <wa_theme_configuration id="background-color">#FF9F9F</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_select_initial">
+    <wa_theme_configuration id="background-color">#FFF</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_select_active">
+    <wa_theme_configuration id="background-color">#FFFFCC</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_select_valid">
+    <wa_theme_configuration id="background-color">#B8F5B1</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_select_invalid">
+    <wa_theme_configuration id="background-color">#FF9F9F</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_checkbox_initial">
+    <wa_theme_configuration id="background-color">#FFF</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_checkbox_active">
+    <wa_theme_configuration id="background-color">#FFF</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_checkbox_valid">
+    <wa_theme_configuration id="background-color">#B8F5B1</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_checkbox_invalid">
+    <wa_theme_configuration id="background-color">#FF9F9F</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_radio_initial">
+    <wa_theme_configuration id="background-color">#FFF</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_radio_active">
+    <wa_theme_configuration id="background-color">#FFF</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_radio_valid">
+    <wa_theme_configuration id="background-color">#B8F5B1</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="state_radio_invalid">
+    <wa_theme_configuration id="background-color">#FF9F9F</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="validation">
+    <wa_theme_configuration id="required_indicator">&nbsp;*</wa_theme_configuration>
+    <wa_theme_configuration id="use_server">true</wa_theme_configuration>
+    <wa_theme_configuration id="use_client">true</wa_theme_configuration>
+    <wa_theme_configuration id="validation_onblur">true</wa_theme_configuration>
+    <wa_theme_configuration id="validation_location">right</wa_theme_configuration>
+    <wa_theme_configuration id="color">#b40000</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="button">
+    <wa_theme_configuration id="position_inside">true</wa_theme_configuration>
+  </wa_theme_group>
+  <wa_theme_group id="appended_text">
+    <wa_theme_configuration id="text_location">below</wa_theme_configuration>
+  </wa_theme_group>
+</wa_form_theme>

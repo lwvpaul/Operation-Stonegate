@@ -1,0 +1,51 @@
+<wa_form name="Default" id="Default" submit_text="Venues" send_mail="false" use_upload="true">
+	<wa_form_fieldset label="" id="3c938be8-3c55-ff90-41c1-ab8a37e27f08"  >
+		<wa_fieldset_description>Required *</wa_fieldset_description>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false" >
+<wa_field_group name="">
+	<wa_field_line>
+		<wa_field_column>
+			<wa_field_set_validation>Please enter a value</wa_field_set_validation>
+			<wa_field_reference src="Text_Medium.xml" label="DiscountCode" validation="{ required: false, type: 'none', format: null, minChars: null, maxChars: null, minValue: null, maxValue: null }" spryValidation="none, { isRequired:false }" continueLine="false" elementName="DiscountCode">
+		</wa_field_reference>
+		</wa_field_column>
+	</wa_field_line>
+	<wa_field_line>
+		<wa_field_column>
+			<wa_field_set_validation>Please select a value</wa_field_set_validation>
+			<wa_field_reference src="Menu_Medium.xml" label="type" validation="{ required: false, notInvalidValue: false, invalidValue: null }" continueLine="false" elementName="type">
+				<wa_field_options>
+					<wa_field_option value="">Select</wa_field_option>
+					<wa_field_option value="amount">Credit Amount</wa_field_option>
+					<wa_field_option value="percent">Based on Percentage</wa_field_option>
+				</wa_field_options>
+		</wa_field_reference>
+		</wa_field_column>
+	</wa_field_line>
+	<wa_field_line>
+		<wa_field_column>
+			<wa_field_set_validation>Please enter a value</wa_field_set_validation>
+			<wa_field_reference src="Text_Medium.xml" label="amount" validation="{ required: false, type: 'none', format: null, minChars: null, maxChars: null, minValue: null, maxValue: null }" spryValidation="none, { isRequired:false }" continueLine="false" elementName="amount">
+		</wa_field_reference>
+		</wa_field_column>
+	</wa_field_line>
+	<wa_field_line>
+		<wa_field_column>
+			<wa_field_set_validation>Please enter a value</wa_field_set_validation>
+			<wa_field_reference src="Text_Medium.xml" label="maxuse" validation="{ required: false, type: 'none', format: null, minChars: null, maxChars: null, minValue: null, maxValue: null }" spryValidation="none, { isRequired:false }" continueLine="false" elementName="maxuse">
+		</wa_field_reference>
+		</wa_field_column>
+	</wa_field_line>
+	<wa_field_line>
+		<wa_field_column>
+			<wa_field_set_validation></wa_field_set_validation>
+			<wa_field_reference src="Datepicker_Standard.xml" label="Expire Date" validation="{ required: false }" serverValidation="datepicker" spryValidation="WAFB:datepicker" continueLine="false" elementName="ExpireDate">
+		</wa_field_reference>
+		</wa_field_column>
+	</wa_field_line>
+</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+	</wa_form_fieldset>
+</wa_form>

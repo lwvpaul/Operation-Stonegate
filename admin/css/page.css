@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.pagebg {
+	background-color: #004923;
+}
+.master_bg_div {
+	background-color: #FFF;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+}
+.pagebg #menu_header {
+	background-color: #FFF;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 50px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-bottom: 50px;
+	margin-left: 3px;
+	border: 1px solid #060; 
+}
+.pagebg #holder {
+	background-color: #FFF;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 3px;
+	border: 1px solid #060; 
+}.PageRecordNo {
+	text-align: center;
+	position: relative;
+}
+.imagepopup{
+	background-color: #FFF;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	border: 2px double #024A24;
+	overflow: auto;
+	position: relative;
+	visibility: hidden;
+	cursor: default;	
+}#img_holder {
+	float: right;
+	width: auto;
+	height: auto;
+	top: 25px;
+}
+#HeaderTitle {
+	position: relative; 
+	padding-bottom: 15px; 
+	padding-left: 15px; 
+	padding-top: 15px; 
+	font-weight: bold; 
+	color: #000000; 
+	font-size: 16px; 
+	font-family: 'Helvetica Neue', Helvetica, Verdana, Geneva, sans-serif;
+}
+	#SubHeaderTitle {
+	padding-bottom: 15px; 
+	font-size: 10px;	
+	}
+.HighLight {
+	color: #FFC;
+	text-decoration: underline;
+}
+#split {
+	border-left-width: medium;
+	border-left-style: dotted;
+	border-left-color: #004923;
+}
+.pagebg .form tr td #CollapsiblePanel1 .CollapsiblePanelTab #txtareatab {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #00F;
+}
+/*ul#cssmww0 {
+
+}
+ul#cssmw0 li {
+	display: block;
+}
+ul#cssmw0 li a {
+	display: inline-block;
+}
+ul#cssmw0 ul {
+	position: relative;
+	margin-top: 10px;
+}
+ul#cssmw0 ul li {
+	padding: 4px;
+}*/

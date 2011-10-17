@@ -1,0 +1,39 @@
+<!-- green -->
+
+#loading{
+	text-align:center;
+}
+#loading img{
+	width:100px;
+	display:block;
+	margin-left:30%;
+	
+}
+#loading span{
+	display:block;
+	margin-top:5px;
+	text-align:center;
+}
+div.blockMsg {
+	width: 250px;
+	top:35%;
+	left:35%;
+	background-color: #304B10;
+	border: 2px solid #2BBF20;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); 
+	-moz-opacity:1;
+	opacity:1;
+	padding: 15px;
+	color: #2BBF20;
+	text-align:left;
+}
+div.blockOverlay {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); 
+    -moz-opacity:.70;
+    opacity:.70;
+    background-color: #304B10;
+}

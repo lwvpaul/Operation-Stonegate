@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_mmTypeData" value="name:ID;datatype:int,name:MEDIA_TYPE;datatype:string,name:VAT_RATING;datatype:string" />
+</info>

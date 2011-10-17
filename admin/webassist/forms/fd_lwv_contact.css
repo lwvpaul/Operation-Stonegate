@@ -1,0 +1,770 @@
+@charset "utf-8";
+/* Spry formats */
+form.LWV_Contact .textfieldRequiredState .textfieldRequiredMsg, 
+form.LWV_Contact .textfieldInvalidFormatState .textfieldInvalidFormatMsg, 
+form.LWV_Contact .textfieldMinValueState .textfieldMinValueMsg,
+form.LWV_Contact .textfieldMaxValueState .textfieldMaxValueMsg,
+form.LWV_Contact .textfieldMinCharsState .textfieldMinCharsMsg,
+form.LWV_Contact .textfieldMaxCharsState .textfieldMaxCharsMsg {
+	color:#000;
+	white-space:nowrap;
+	margin-top:15px;
+	margin-left:5px;
+	border-width:0;
+}
+form.LWV_Contact .checkboxRequiredState .checkboxRequiredMsg,
+form.LWV_Contact .checkboxMinSelectionsState .checkboxMinSelectionsMsg,
+form.LWV_Contact .checkboxMaxSelectionsState .checkboxMaxSelectionsMsg {
+	color:#000;
+	white-space:nowrap;
+	margin-top:15px;
+	margin-left:5px;
+	border-width:0;
+}
+form.LWV_Contact .selectRequiredState .selectRequiredMsg,
+form.LWV_Contact .selectInvalidState .selectInvalidMsg {
+	color:#000;
+	white-space:nowrap;
+	margin-top:15px;
+	margin-left:5px;
+	border-width:0;
+}
+form.LWV_Contact .textareaRequiredState .textareaRequiredMsg,
+form.LWV_Contact .textareaMinCharsState .textareaMinCharsMsg,
+form.LWV_Contact .textareaMaxCharsState .textareaMaxCharsMsg {
+	color:#000;
+	white-space:nowrap;
+	margin-top:15px;
+	margin-left:5px;
+	border-width:0;
+}
+form.LWV_Contact .radioRequiredState .radioRequiredMsg,
+form.LWV_Contact .radioInvalidState .radioInvalidMsg {
+	color:#000;
+	white-space:nowrap;
+	margin-top:15px;
+	margin-left:5px;
+	border-width:0;
+}
+form.LWV_Contact .passwordRequiredState .passwordRequiredMsg,
+form.LWV_Contact .passwordMinCharsState .passwordMinCharsMsg,
+form.LWV_Contact .passwordMaxCharsState .passwordMaxCharsMsg,
+form.LWV_Contact .passwordInvalidStrengthState .passwordInvalidStrengthMsg,
+form.LWV_Contact .passwordCustomState .passwordCustomMsg {
+	color:#000;
+	white-space:nowrap;
+	margin-top:15px;
+	margin-left:5px;
+	border-width:0;
+}
+form.LWV_Contact .confirmRequiredState .confirmRequiredMsg,
+form.LWV_Contact .confirmInvalidState .confirmInvalidMsg {
+	color:#000;
+	white-space:nowrap;
+	margin-top:15px;
+	margin-left:5px;
+	border-width:0;
+}
+
+form.LWV_Contact span.additionalErrorZone {
+	white-space:nowrap;
+}
+form.LWV_Contact div.errorGroup {
+	margin-left:225px;
+}
+form.LWV_Contact span.serverInvalidState {
+	color:#000;
+	white-space:nowrap;
+	margin-top:15px;
+	margin-left:5px;
+	border-width:0;
+}
+
+/* form general definition */
+form.LWV_Contact {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	color:#999999;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:700px;
+}
+form.LWV_Contact ul.LWV_Contact {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+form.LWV_Contact ul.formList {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+  list-style-type:none;
+}
+form.LWV_Contact li.formItem {
+	clear:both;
+}
+form.LWV_Contact fieldset.LWV_Contact {
+	/* border:5px solid #e9e9e9; */
+	padding:5px 5px 15px 5px;
+	clear:both;
+}
+
+/* legend */
+form.LWV_Contact legend.groupHeader {
+	padding:3px 3px 3px 3px;
+	color:#b6b6b6;
+	font-weight:bold;
+	font-size:20pt;
+	font-family: Arial, Helvetica, Arial, courier;
+	white-space:nowrap;
+	margin-left:10px;
+}
+
+/* labels */
+form.LWV_Contact label.groupHeader {
+	color:#444;
+	font-weight:bold;
+	font-size:15pt;
+	font-family: Arial, Helvetica, Arial, courier;
+	text-align:right;
+	width:220px;
+	display:block;
+	float:left;
+	position:relative;
+}
+form.LWV_Contact label.sublabel {
+	text-align:right;
+	width:220px;
+	float:left;
+	display:block;
+	padding-top:2px;
+	padding-right:5px;
+}
+form.LWV_Contact label.secondSublabel {
+	width:auto;
+}
+form.LWV_Contact label.sublabelPlaceholder {
+}
+form.LWV_Contact span.requiredIndicator {
+	color:#000;
+}
+form.LWV_Contact span.fieldsetDescription {
+	color:#000;
+	text-align:right;
+	display:block;
+}
+
+/* span wrappers for form */
+form.LWV_Contact div.formGroup {
+	display:inline;
+	float:left;
+}
+form.LWV_Contact div.lineGroup {
+	clear:left;
+	display:block;
+}
+/* defines column size */
+form.LWV_Contact div.wideColumnGroup {
+	width:302px;
+	padding-bottom:8px;
+	padding-top:8px;
+	display:inline;
+	float:left;
+}
+form.LWV_Contact div.fullColumnGroup {
+	width:682px;
+	padding-bottom:8px;
+	padding-top:8px;
+	display:inline;
+	float:left;
+}
+form.LWV_Contact div.columnGroup {
+	width:380px;
+	padding-bottom:8px;
+	padding-top:8px;
+	display:inline;
+	float:left;
+}
+form.LWV_Contact div.fieldGroup {
+	padding-left:8px;
+	padding-right:8px;
+  position:relative;
+	display:block;
+	float:left;
+}
+form.LWV_Contact div.fieldPair {
+	display:block;
+}
+
+form.LWV_Contact div.SameAsCheck_Row {
+	margin-top:6px;
+	margin-bottom:10px;
+}
+
+form.LWV_Contact span.precedingText {
+	text-align:right;
+	font-weight: bold;
+}
+form.LWV_Contact div.trailingText {
+	color:#000;
+	display:inline;
+  white-space:nowrap;
+	margin-top:2px;
+	margin-right:2px;
+	margin-left:4px;
+	padding-top:2px;
+}
+form.LWV_Contact div.trailingText a {
+	color:#000;
+}
+form.LWV_Contact div.trailingText div {
+	background-color:#cccccc;
+}
+
+/* wide groups for items on a single line */
+form.LWV_Contact span.wideFieldGroup {
+	width:100%;
+	float:left;
+}
+
+/* button form elements */
+form.LWV_Contact span.buttonFieldGroup {
+	float:left;
+	text-align:right;
+	margin-top:10px;
+	margin-left:235px;
+}
+form.LWV_Contact input.formButton {
+	padding:5px 20px 5px 20px;
+	margin:0 0 0 0;
+	background-color:#444;
+	color:#FFF;
+	font-weight:bold;
+	font-size:20pt;
+	font-family: Arial, Helvetica, Arial, courier;
+	border-width:0;
+}
+
+/* text form elements */
+form.LWV_Contact input.formTextfield_XSmall {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:50px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact input.formTextfield_Small {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:80px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact input.formTextfield_Medium {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:120px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact input.formTextfield_Large {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:252px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact input.formTextfield_XLarge {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:382px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+
+form.LWV_Contact .textfieldValidState input, form.LWV_Contact input.textfieldValidState {
+	background-color:#e5e5e5;
+	color:#000;
+}
+
+form.LWV_Contact input.textfieldRequiredState, form.LWV_Contact .textfieldRequiredState input, 
+form.LWV_Contact input.textfieldInvalidFormatState, form.LWV_Contact .textfieldInvalidFormatState input, 
+form.LWV_Contact input.textfieldMinValueState, form.LWV_Contact .textfieldMinValueState input, 
+form.LWV_Contact input.textfieldMaxValueState, form.LWV_Contact .textfieldMaxValueState input, 
+form.LWV_Contact input.textfieldMinCharsState, form.LWV_Contact .textfieldMinCharsState input, 
+form.LWV_Contact input.textfieldMaxCharsState, form.LWV_Contact .textfieldMaxCharsState input {
+	background-color:#000;
+	color:#fff;
+}
+
+form.LWV_Contact .textfieldFocusState input, form.LWV_Contact input.textfieldFocusState {
+	background-color:#b5b5b5;
+	color:#000;
+}
+
+form.LWV_Contact .textfieldFlashText input, form.LWV_Contact input.textfieldFlashText {
+	color: red !important;
+}
+
+form.LWV_Contact .textfieldHintState input, form.LWV_Contact input.textfieldHintState {
+	/*color: red !important;*/
+}
+
+
+/* textarea form elements */
+form.LWV_Contact textarea.formTextarea_Small {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:5px 5px 5px 5px;
+	width:252px;
+	height:100px;
+	white-space:pre;
+	overflow:auto;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact textarea.formTextarea_Medium {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:5px 5px 5px 5px;
+	width:382px;
+	height:150px;
+	white-space:pre;
+	overflow:auto;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact textarea.formTextarea_Large {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:5px 5px 5px 5px;
+	width:514px;
+	height:200px;
+	white-space:pre;
+	overflow:auto;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact .textareaValidState textarea, form.LWV_Contact textarea.textareaValidState {
+	background-color:#e5e5e5;
+	color:#000;
+}
+
+form.LWV_Contact textarea.textareaRequiredState, form.LWV_Contact .textareaRequiredState textarea, 
+form.LWV_Contact textarea.textareaMinCharsState, form.LWV_Contact .textareaMinCharsState textarea, 
+form.LWV_Contact textarea.textareaMaxCharsState, form.LWV_Contact .textareaMaxCharsState textarea {
+	background-color:#000;
+	color:#fff;
+}
+
+form.LWV_Contact .textareaFocusState textarea, form.LWV_Contact textarea.textareaFocusState {
+	background-color:#b5b5b5;
+	color:#000;
+}
+
+form.LWV_Contact .textareaFlashState textarea, form.LWV_Contact textarea.textareaFlashState{
+	color:red !important;
+}
+
+form.LWV_Contact textarea.textareaHintState, form.LWV_Contact .textareaHintState textarea{
+	/* color: red !important;*/
+}
+
+
+/* select form elements */
+form.LWV_Contact select.formMenufield_XSmall {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:0 0 0 0;
+	width:50px;
+	margin:0;
+	margin-left:2px;
+}
+form.LWV_Contact select.formMenufield_Small {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:0 0 0 0;
+	width:80px;
+	margin:0;
+	margin-left:2px;
+}
+form.LWV_Contact select.formMenufield_Medium {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:0 0 0 0;
+	width:120px;
+	margin:0;
+	margin-left:2px;
+}
+form.LWV_Contact select.formMenufield_Large {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:0 0 0 0;
+	width:252px;
+	margin:0;
+	margin-left:2px;
+}
+form.LWV_Contact select.formMenufield_XLarge {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:0 0 0 0;
+	width:382px;
+	margin:0;
+	margin-left:2px;
+}
+
+form.LWV_Contact select.formListfield_XSmall {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:5px 5px 5px 5px;
+	width:50px;
+	height:100px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact select.formListfield_Small {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:5px 5px 5px 5px;
+	width:80px;
+	height:100px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact select.formListfield_Medium {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:5px 5px 5px 5px;
+	width:120px;
+	height:100px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact select.formListfield_Large {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:5px 5px 5px 5px;
+	width:252px;
+	height:100px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact select.formListfield_XLarge {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:5px 5px 5px 5px;
+	width:382px;
+	height:150px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact .selectValidState select, form.LWV_Contact select.selectValidState {
+	background-color:#e5e5e5;
+	color:#000;
+}
+
+form.LWV_Contact select.selectRequiredState, form.LWV_Contact .selectRequiredState select,
+form.LWV_Contact select.selectInvalidState, form.LWV_Contact .selectInvalidState select {
+	background-color:#000;
+	color:#fff;
+}
+
+.selectFocusState select, form.LWV_Contact select.selectFocusState {
+	background-color:#e5e5e5;
+	color:#000;
+}
+
+/* radio button form elements */
+form.LWV_Contact input.formRadioField_Standard {
+	color:#000;
+	padding:2px 2px 2px 2px;
+	margin-left:2px;
+	border-width:0;
+}
+form.LWV_Contact .radioValidState input, form.LWV_Contact input.radioValidState {
+	color:#000;
+	background-color: #B8F5B1;
+}
+form.LWV_Contact input.radioRequiredState, form.LWV_Contact .radioRequiredState input,
+form.LWV_Contact input.radioInvalidState, form.LWV_Contact .radioInvalidState input {
+	color:#fff;
+	background-color: #FF9F9F;
+}
+form.LWV_Contact .radioFocusState input, form.LWV_Contact input.radioFocusState {
+	color:#000;
+	background-color: #FFFFCC;
+}
+
+form.LWV_Contact span.radioFieldGroup_Narrow {
+	
+}
+form.LWV_Contact span.radioFieldGroup_Wide {
+	display:block;
+}
+form.LWV_Contact span.radioFieldGroup_OneColumn {
+	display:block;
+}
+form.LWV_Contact span.radioGroup_Narrow {
+	
+}
+form.LWV_Contact span.radioGroup_Wide {
+	display:block;
+}
+form.LWV_Contact span.radioGroup_OneColumn {
+	display:block;
+}
+form.LWV_Contact label.radioSublabel_Narrow {
+	width:60px;
+	float:left;
+	display:block;
+	text-align:left;
+	margin-top:6px;
+	margin-left:2px;
+	border-width:0;
+	margin-bottom:2px;
+}
+form.LWV_Contact label.radioSublabel_Wide {
+	width:135px;
+	float:left;
+	display:block;
+	text-align:left;
+	margin-top:6px;
+	margin-left:2px;
+	border-width:0;
+	margin-bottom:2px;
+}
+form.LWV_Contact label.radioSublabel_OneColumn {
+	display:block;
+	text-align:left;
+	margin-top:6px;
+	margin-left:2px;
+	border-width:0;
+	margin-bottom:2px;
+}
+
+
+/* checkbox form elements */
+form.LWV_Contact input.SameAsCheck {
+	color:#000;
+	padding:2px 2px 2px 2px;
+	margin-top:6px;
+	margin-left:2px;
+	border-width:0;
+}
+form.LWV_Contact input.formCheckboxField_Standard {
+	color:#000;
+	padding:2px 2px 2px 2px;
+	margin-top:6px;
+	margin-left:2px;
+	border-width:0;
+}
+form.LWV_Contact .checkboxValidState input, form.LWV_Contact input.checkboxValidState {
+	color:#000;
+	background-color: #B8F5B1;
+}
+form.LWV_Contact input.checkboxRequiredState, form.LWV_Contact .checkboxRequiredState input,
+form.LWV_Contact input.checkboxMinSelectionsState, form.LWV_Contact .checkboxMinSelectionsState input,
+form.LWV_Contact input.checkboxMaxSelectionsState, form.LWV_Contact .checkboxMaxSelectionsState input {
+	color:#fff;
+	background-color: #FF9F9F;
+}
+form.LWV_Contact .checkboxFocusState input, form.LWV_Contact input.checkboxFocusState {
+	color:#000;
+	background-color: #FFFFCC;
+}
+
+form.LWV_Contact span.checkFieldGroup_Narrow {
+	display:block;
+}
+form.LWV_Contact span.checkFieldGroup_Wide {
+	
+}
+form.LWV_Contact span.checkFieldGroup_OneColumn {
+	display:block;
+}
+form.LWV_Contact span.checkGroup_Narrow {
+	display:block;
+}
+form.LWV_Contact span.checkGroup_Wide {
+	
+}
+form.LWV_Contact span.checkGroup_OneColumn {
+	display:block;
+}
+form.LWV_Contact label.checkSublabel_Narrow {
+	width:60px;
+	float:left;
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+form.LWV_Contact label.checkSublabel_Wide {
+	width:135px;
+	float:left;
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+form.LWV_Contact label.checkSublabel_OneColumn {
+	display:block;
+	text-align:left;
+	border-width:0;
+	margin-bottom:2px;
+}
+
+/* confirm and password states (same as text) */
+form.LWV_Contact input.formPasswordfield_XSmall {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:50px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact input.formPasswordfield_Small {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:80px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact input.formPasswordfield_Medium {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:120px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact input.formPasswordfield_Large {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:252px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+form.LWV_Contact input.formPasswordfield_XLarge {
+	background-color:#e5e5e5;
+	color:#000;
+	padding:8px 8px 8px 8px;
+	width:382px;
+	margin:0;
+	border-width:0;
+	margin-left:2px;
+}
+
+form.LWV_Contact .confirmValidState input, form.LWV_Contact input.confirmValidState {
+	background-color:#e5e5e5;
+	color:#000;
+}
+
+form.LWV_Contact input.confirmRequiredState, form.LWV_Contact .confirmRequiredState input, 
+form.LWV_Contact input.confirmInvalidState, form.LWV_Contact .confirmInvalidState input {
+	background-color:#000;
+	color:#fff;
+}
+
+form.LWV_Contact .confirmFocusState input, form.LWV_Contact input.confirmFocusState {
+	background-color:#b5b5b5;
+	color:#000;
+}
+form.LWV_Contact .passwordValidState input, form.LWV_Contact input.passwordValidState {
+	background-color:#e5e5e5;
+	color:#000;
+}
+
+form.LWV_Contact input.passwordRequiredState, form.LWV_Contact .passwordRequiredState input, 
+form.LWV_Contact input.passwordInvalidStrengthState, form.LWV_Contact .passwordInvalidStrengthState input, 
+form.LWV_Contact input.passwordMinCharsState, form.LWV_Contact .passwordMinCharsState input, 
+form.LWV_Contact input.passwordCustomState, form.LWV_Contact .passwordCustomState input, 
+form.LWV_Contact input.passwordMaxCharsState, form.LWV_Contact .passwordMaxCharsState input {
+	background-color:#000;
+	color:#fff;
+}
+
+form.LWV_Contact .passwordFocusState input, form.LWV_Contact input.passwordFocusState {
+	background-color:#b5b5b5;
+	color:#000;
+}
+
+/*Captcha form element*/
+form.LWV_Contact img.Captcha {
+	margin:0 0 -11px 3px;
+}
+
+/*Datepicker form element*/
+.ui-datepicker {
+}
+.ui-datepicker a {
+}
+.ui-datepicker .ui-widget-header {
+}
+.ui-datepicker thead th {
+}
+
+.ui-datepicker tbody td a:link,
+.ui-datepicker tbody td a:visited,
+.ui-datepicker tbody td a.ui-state-default {
+}
+.ui-datepicker tbody td a:active,
+.ui-datepicker tbody td a.ui-state-active {
+}
+.ui-datepicker tbody td a:hover,
+.ui-datepicker tbody td a.ui-state-hover {
+}
+.ui-datepicker tbody td a.ui-state-error:link,
+.ui-datepicker tbody td a.ui-state-error:visited,
+.ui-datepicker tbody td a.ui-state-error {
+}
+.ui-datepicker tbody .ui-state-error-text {
+}
+
+.ui-datepicker tbody td.ui-datepicker-week-end a:link,
+.ui-datepicker tbody td.ui-datepicker-week-end a:visited,
+.ui-datepicker tbody td.ui-datepicker-week-end a {
+}
+.ui-datepicker tbody td.ui-datepicker-today a:link,
+.ui-datepicker tbody td.ui-datepicker-today a:visited,
+.ui-datepicker tbody td.ui-datepicker-today a:hover,
+.ui-datepicker tbody td.ui-datepicker-today a {
+}
+
+.ui-datepicker tbody td.ui-datepicker-week-end a:hover,
+.ui-datepicker tbody td.ui-datepicker-week-end a.ui-state-hover {
+}
+.ui-datepicker tbody td.ui-datepicker-week-end a:active,
+.ui-datepicker tbody td.ui-datepicker-week-end a:focus,
+.ui-datepicker tbody td.ui-datepicker-week-end a.ui-state-active {
+}
+
+.ui-datepicker-trigger {
+  border: 0;
+  margin: 0 0 0 1px;
+  padding: 0;
+  background: none;
+}
